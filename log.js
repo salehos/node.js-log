@@ -1,7 +1,7 @@
 const { Kafka } = require('kafkajs')
 const kafka = new Kafka({
-    clientId: 'my-app',
-    brokers: ['51.178.160.66:9092']
+    clientId: clientId,
+    brokers: [ipaddress:port]
 })
 var dateFormat = require('dateformat');
 
