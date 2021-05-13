@@ -1,8 +1,8 @@
 {
-  "name": "node.js-log",
+  "name": "nodejs-log-ganjineh",
   "version": "1.0.0",
-  "description": "a directory logger and producer to kafka",
-  "main": "(log.js)",
+  "description": "a node.js logger and send it to kafka",
+  "main": "log.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,12 +11,17 @@
     "url": "git+https://github.com/salehos/node.js-log.git"
   },
   "keywords": [
-    "node-js-log"
+    "node.js-log"
   ],
-  "author": "mohammad saleh saeidi <salehos763@gmail.com>",
+  "author": "salehos763@gmail.com",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/salehos/node.js-log/issues"
   },
-  "homepage": "https://github.com/salehos/node.js-log#readme"
+  "homepage": "https://github.com/salehos/node.js-log#readme",
+  "dependencies": {
+    "dateformat": "^4.5.1",
+    "kafkajs": "^1.15.0",
+    "winston": "^3.3.3"
+  }
 }
