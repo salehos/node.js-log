@@ -11,9 +11,6 @@ class Log{
 		this.moduleName = module_name;
 	}
 
-	// async produce_test(message, log_level) {
-		
-	// }
 
 	async log(message, log_level, log_name) {		
 		if(log_name === undefined){
@@ -58,3 +55,5 @@ class Log{
 		await producer.disconnect()
 	}
 }
+
+module.exports.Log = Log;
