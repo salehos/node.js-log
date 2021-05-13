@@ -1,0 +1,22 @@
+{
+  "name": "node.js-log",
+  "version": "1.0.0",
+  "description": "a directory logger and producer to kafka",
+  "main": "(log.js) (test.js)",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salehos/node.js-log.git"
+  },
+  "keywords": [
+    "node-js-log"
+  ],
+  "author": "mohammad saleh saeidi <salehos763@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/salehos/node.js-log/issues"
+  },
+  "homepage": "https://github.com/salehos/node.js-log#readme"
+}
