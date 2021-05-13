@@ -1,5 +1,7 @@
 # node.js-log
 
+to import this log module to your module use "npm install nodejs-log-ganjineh"
+
 there is one class in log.js file that has named Log.
 it has a constructor with 3 variable, "clientId", "brokers" and "brokers". we want this variables for kafka producer.
 
